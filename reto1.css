@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #d3c0d7;
+   
+  }
+  
+ .containerPrincipal {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+
+  }
+  
+
+  .gatito {
+    width: 60%;
+    display: flex;
+    border-radius: 8px;
+    
+    
+  }
+  .container {
+    background-color: #f196c8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  
+  button {
+    padding: 8px;
+    background-color: #dcdfe1;
+    color: #101010;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #586daf;
+  }
+  
+  #result {
+    margin-top: 20px;
+  }
+  
+  #primeOutput {
+    font-size: 16px;
+    color: #0b0a0a;
+  }
+  
